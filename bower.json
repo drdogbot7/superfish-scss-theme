@@ -1,0 +1,15 @@
+{
+  "name": "superfish scss theme",
+  "version": "1.0.0",
+  "main": [
+  	"dist/scss/main.scss"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "superfish": ">=1.7.9"
+  }
+}

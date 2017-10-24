@@ -1,0 +1,82 @@
+/*
+	Base
+*/
+
+$sf-base-padding: 1em !default;
+$sf-base-padding-y: 0.75 * $sf-base-padding !default;
+$sf-base-padding-top: $sf-base-padding-y !default;
+$sf-base-padding-bottom: $sf-base-padding-y !default;
+$sf-base-padding-x: $sf-base-padding !default;
+$sf-base-padding-left: $sf-base-padding-x !default;
+$sf-base-padding-right: $sf-base-padding-x !default;
+
+$sf-base-bg-color:#BDD2FF !default;
+$sf-base-bg-hover:mix(white, $sf-base-bg-color, 12%) !default; // ≈ #CFDEFF
+
+$sf-base-arrow-color:rgba(255,255,255,0.5);
+
+$sf-base-border:none !default;
+$sf-base-border-top:$sf-base-border !default;
+$sf-base-border-right:$sf-base-border !default;
+$sf-base-border-bottom:$sf-base-border !default;
+$sf-base-border-left:$sf-base-border !default;
+
+/*
+	Level 1
+*/
+
+$sf-l1-padding: $sf-base-padding !default;
+$sf-l1-padding-y: 0.75 * $sf-l1-padding !default;
+$sf-l1-padding-top: $sf-l1-padding-y !default;
+$sf-l1-padding-bottom: $sf-l1-padding-y !default;
+$sf-l1-padding-x: $sf-l1-padding !default;
+$sf-l1-padding-left: $sf-l1-padding-x !default;
+$sf-l1-padding-right: $sf-l1-padding-x !default;
+
+$sf-l1-bg-color: $sf-base-bg-color !default;
+$sf-l1-bg-hover: $sf-base-bg-hover !default;
+
+$sf-l1-border-top:$sf-base-border !default;
+$sf-l1-border-right:$sf-base-border !default;
+$sf-l1-border-bottom:$sf-base-border !default;
+$sf-l1-border-left:$sf-base-border !default;
+
+/*
+	Level 2
+*/
+
+$sf-l2-padding: $sf-base-padding !default;
+$sf-l2-padding-y: 0.75 * $sf-l2-padding !default;
+$sf-l2-padding-top: $sf-l2-padding-y !default;
+$sf-l2-padding-bottom: $sf-l2-padding-y !default;
+$sf-l2-padding-x: $sf-l2-padding !default;
+$sf-l2-padding-left: $sf-l2-padding-x !default;
+$sf-l2-padding-right: $sf-l2-padding-x !default;
+
+$sf-l2-bg-color: mix(black, $sf-base-bg-color, 10%) !default; // ≈ #AABDE6
+$sf-l2-bg-hover: $sf-base-bg-hover !default;
+
+$sf-l2-border-top:$sf-base-border !default;
+$sf-l2-border-right:$sf-base-border !default;
+$sf-l2-border-bottom:$sf-base-border !default;
+$sf-l2-border-left:$sf-base-border !default;
+
+/*
+	Level 3+
+*/
+
+$sf-l3-padding: $sf-base-padding !default;
+$sf-l3-padding-y: 0.75 * $sf-l2-padding !default;
+$sf-l3-padding-top: $sf-l2-padding-y !default;
+$sf-l3-padding-bottom: $sf-l2-padding-y !default;
+$sf-l3-padding-x: $sf-l2-padding !default;
+$sf-l3-padding-left: $sf-l2-padding-x !default;
+$sf-l3-padding-right: $sf-l2-padding-x !default;
+
+$sf-l3-bg-color: mix(black, $sf-base-bg-color, 20%) !default; // = #9AAEDB
+$sf-l3-bg-hover: $sf-base-bg-hover !default;
+
+$sf-l3-border-top:$sf-base-border !default;
+$sf-l3-border-right:$sf-base-border !default;
+$sf-l3-border-bottom:$sf-base-border !default;
+$sf-l3-border-left:$sf-base-border !default;
