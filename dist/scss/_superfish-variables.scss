@@ -14,6 +14,7 @@ $sf-base-padding-x: $sf-base-padding !default;
 $sf-base-padding-left: $sf-base-padding-x !default;
 $sf-base-padding-right: $sf-base-padding-x !default;
 
+$sf-base-color: null !default;
 $sf-base-bg-color:#BDD2FF !default;
 $sf-base-bg-hover:mix(white, $sf-base-bg-color, 12%) !default; // ≈ #CFDEFF
 
@@ -37,6 +38,7 @@ $sf-l1-padding-x: $sf-l1-padding !default;
 $sf-l1-padding-left: $sf-l1-padding-x !default;
 $sf-l1-padding-right: $sf-l1-padding-x !default;
 
+$sf-l1-color: $sf-base-color !default;
 $sf-l1-bg-color: $sf-base-bg-color !default;
 $sf-l1-bg-hover: $sf-base-bg-hover !default;
 
@@ -57,6 +59,7 @@ $sf-l2-padding-x: $sf-l2-padding !default;
 $sf-l2-padding-left: $sf-l2-padding-x !default;
 $sf-l2-padding-right: $sf-l2-padding-x !default;
 
+$sf-l2-color: $sf-base-color !default;
 $sf-l2-bg-color: mix(black, $sf-base-bg-color, 10%) !default; // ≈ #AABDE6
 $sf-l2-bg-hover: $sf-base-bg-hover !default;
 
@@ -77,6 +80,7 @@ $sf-l3-padding-x: $sf-l2-padding !default;
 $sf-l3-padding-left: $sf-l2-padding-x !default;
 $sf-l3-padding-right: $sf-l2-padding-x !default;
 
+$sf-l2-color: $sf-base-color !default;
 $sf-l3-bg-color: mix(black, $sf-base-bg-color, 20%) !default; // = #9AAEDB
 $sf-l3-bg-hover: $sf-base-bg-hover !default;
 

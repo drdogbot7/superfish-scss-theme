@@ -52,7 +52,7 @@
 	zoom: 1; /* IE7 */
 }
 .sf-menu a {
-	color: #13a;
+	color: $sf-l1-color;
 }
 .sf-menu li {
 	background: $sf-l1-bg-color;
@@ -65,6 +65,7 @@
 	background: $sf-l2-bg-color;
 }
 .sf-menu ul li a {
+	color: $sf-l2-color;
 	border-top: $sf-l2-border-top;
 	border-right: $sf-l2-border-right;
 	border-bottom: $sf-l2-border-bottom;
@@ -75,6 +76,7 @@
 	background: $sf-l2-bg-color;
 }
 .sf-menu ul ul li a {
+	color: $sf-l3-color;
 	border-top: $sf-l3-border-top;
 	border-right: $sf-l3-border-right;
 	border-bottom: $sf-l3-border-bottom;
