@@ -11,5 +11,13 @@
   ],
   "dependencies": {
     "superfish": ">=1.7.9"
+  },
+  "overrides": {
+    "superfish": {
+      "main": [
+        "dist/js/superfish.js",
+        "dist/js/hoverIntent.js"
+      ]
+    }
   }
 }
