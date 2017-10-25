@@ -1,5 +1,6 @@
 @import "superfish-variables";
 @import "superfish";
-@import "superfish-navbar"; 
-@import "superfish-vertical";
-@import "megafish";
+
+@if $sf-vertical == true { @import "superfish-vertical"; }
+@if $sf-navbar == true { @import "superfish-navbar"; }
+@if $sf-mega == true { @import "megafish"; }
