@@ -84,7 +84,7 @@
 }
 .sf-menu li:hover,
 .sf-menu li.sfHover {
-	background: $sf-l1-bg--hover;
+	background: $sf-l1-bg-color--hover;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
@@ -92,7 +92,7 @@
 
 .sf-menu ul li:hover,
 .sf-menu ul li.sfHover {
-	background: $sf-l2-bg--hover;
+	background: $sf-l2-bg-color--hover;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
@@ -100,7 +100,7 @@
 
 .sf-menu ul ul li:hover,
 .sf-menu ul ul li.sfHover {
-	background: $sf-l3-bg--hover;
+	background: $sf-l3-bg-color--hover;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
