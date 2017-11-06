@@ -14,11 +14,12 @@ $sf-base-padding-x: $sf-base-padding !default;
 $sf-base-padding-left: $sf-base-padding-x !default;
 $sf-base-padding-right: $sf-base-padding-x !default;
 
-$sf-base-color: null !default;
-$sf-base-bg-color:#BDD2FF !default;
-$sf-base-bg-hover:mix(white, $sf-base-bg-color, 12%) !default; // ≈ #CFDEFF
+$sf-base-color: #0000EE;
+$sf-base-bg:#BDD2FF !default;
+$sf-base-bg--hover:mix(white, $sf-base-bg, 12%) !default; // ≈ #CFDEFF
 
-$sf-base-arrow-color:rgba(255,255,255,0.5);
+$sf-base-arrow:$sf-base-color !default;
+$sf-base-arrow--hover:$sf-base-arrow !default;
 
 $sf-base-border:none !default;
 $sf-base-border-top:$sf-base-border !default;
@@ -39,8 +40,11 @@ $sf-l1-padding-left: $sf-l1-padding-x !default;
 $sf-l1-padding-right: $sf-l1-padding-x !default;
 
 $sf-l1-color: $sf-base-color !default;
-$sf-l1-bg-color: $sf-base-bg-color !default;
-$sf-l1-bg-hover: $sf-base-bg-hover !default;
+$sf-l1-bg: $sf-base-bg !default;
+$sf-l1-bg--hover: $sf-base-bg--hover !default;
+
+$sf-l1-arrow:$sf-base-arrow !default;
+$sf-l1-arrow--hover:$sf-l1-arrow !default;
 
 $sf-l1-border-top:$sf-base-border !default;
 $sf-l1-border-right:$sf-base-border !default;
@@ -60,8 +64,11 @@ $sf-l2-padding-left: $sf-l2-padding-x !default;
 $sf-l2-padding-right: $sf-l2-padding-x !default;
 
 $sf-l2-color: $sf-base-color !default;
-$sf-l2-bg-color: mix(black, $sf-base-bg-color, 10%) !default; // ≈ #AABDE6
-$sf-l2-bg-hover: $sf-base-bg-hover !default;
+$sf-l2-bg: mix(black, $sf-base-bg, 10%) !default; // ≈ #AABDE6
+$sf-l2-bg--hover: $sf-base-bg--hover !default;
+
+$sf-l2-arrow:$sf-base-arrow !default;
+$sf-l2-arrow--hover:$sf-l2-arrow !default;
 
 $sf-l2-border-top:$sf-base-border !default;
 $sf-l2-border-right:$sf-base-border !default;
@@ -81,8 +88,11 @@ $sf-l3-padding-left: $sf-l2-padding-x !default;
 $sf-l3-padding-right: $sf-l2-padding-x !default;
 
 $sf-l3-color: $sf-base-color !default;
-$sf-l3-bg-color: mix(black, $sf-base-bg-color, 20%) !default; // = #9AAEDB
-$sf-l3-bg-hover: $sf-base-bg-hover !default;
+$sf-l3-bg: mix(black, $sf-base-bg, 20%) !default; // = #9AAEDB
+$sf-l3-bg--hover: $sf-base-bg--hover !default;
+
+$sf-l3-arrow:$sf-base-arrow !default;
+$sf-l3-arrow--hover:$sf-l3-arrow !default;
 
 $sf-l3-border-top:$sf-base-border !default;
 $sf-l3-border-right:$sf-base-border !default;

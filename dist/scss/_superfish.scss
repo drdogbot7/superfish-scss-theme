@@ -84,7 +84,7 @@
 }
 .sf-menu li:hover,
 .sf-menu li.sfHover {
-	background: $sf-l1-bg-hover;
+	background: $sf-l1-bg--hover;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
@@ -92,7 +92,7 @@
 
 .sf-menu ul li:hover,
 .sf-menu ul li.sfHover {
-	background: $sf-l2-bg-hover;
+	background: $sf-l2-bg--hover;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
@@ -100,7 +100,7 @@
 
 .sf-menu ul ul li:hover,
 .sf-menu ul ul li.sfHover {
-	background: $sf-l3-bg-hover;
+	background: $sf-l3-bg--hover;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;
@@ -120,26 +120,35 @@
 	margin-top: -3px;
 	height: 0;
 	width: 0;
-	/* order of following 3 rules important for fallbacks to work */
 	border: 5px solid transparent;
-	border-top-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
-	border-top-color: rgba(255,255,255,.5);
+	border-top-color: $sf-l1-arrow;
 }
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
 .sf-arrows > .sfHover > .sf-with-ul:after {
-	border-top-color: white; /* IE8 fallback colour */
+	border-top-color: $sf-l1-arrow--hover;
 }
 /* styling for right-facing arrows */
 .sf-arrows ul .sf-with-ul:after {
 	margin-top: -5px;
 	margin-right: -3px;
 	border-color: transparent;
-	border-left-color: #dFeEFF; /* edit this to suit design (no rgba in IE8) */
-	border-left-color: rgba(255,255,255,.5);
+	border-left-color: $sf-l2-arrow;
 }
 .sf-arrows ul li > .sf-with-ul:focus:after,
 .sf-arrows ul li:hover > .sf-with-ul:after,
 .sf-arrows ul .sfHover > .sf-with-ul:after {
-	border-left-color: white;
+	border-left-color: $sf-l2-arrow--hover;
+}
+
+.sf-arrows ul ul .sf-with-ul:after {
+	margin-top: -5px;
+	margin-right: -3px;
+	border-color: transparent;
+	border-left-color: $sf-l3-arrow;
+}
+.sf-arrows ul ul li > .sf-with-ul:focus:after,
+.sf-arrows ul ul li:hover > .sf-with-ul:after,
+.sf-arrows ul ul .sfHover > .sf-with-ul:after {
+	border-left-color: $sf-l3-arrow--hover;
 }
