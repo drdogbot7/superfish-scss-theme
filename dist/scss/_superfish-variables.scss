@@ -14,7 +14,7 @@ $sf-base-padding-x: $sf-base-padding !default;
 $sf-base-padding-left: $sf-base-padding-x !default;
 $sf-base-padding-right: $sf-base-padding-x !default;
 
-$sf-base-color: #0000EE;
+$sf-base-color: #0000EE !default;
 $sf-base-bg-color:#BDD2FF !default;
 $sf-base-bg-color--hover:mix(white, $sf-base-bg-color, 12%) !default; // ≈ #CFDEFF
 
