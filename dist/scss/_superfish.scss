@@ -108,7 +108,7 @@
 
 /*** arrows (for all except IE7) **/
 .sf-arrows .sf-with-ul {
-	padding-right: 2.5em;
+	padding-right: $sf-l1-padding-right * 2.5;
 	*padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
 }
 /* styling for both css and generated arrows */
@@ -116,7 +116,7 @@
 	content: '';
 	position: absolute;
 	top: 50%;
-	right: 1em;
+	right: $sf-l1-padding-right;
 	margin-top: -3px;
 	height: 0;
 	width: 0;
